@@ -1,1 +1,15 @@
 <button onclick="alert('hi');">say hi</button>
+
+<input type="number" name="" id="num-a">
+<input type="number" name="" id="num-b">
+
+<button onclick="sum()">sum</button>
+
+<script>
+    function sum() {
+        let numA = document.getElementById("num-a").value;
+        let numB = document.getElementById("num-b").value;
+
+        alert( parseInt(numA) + parseInt(numB) );
+    }
+</script>
